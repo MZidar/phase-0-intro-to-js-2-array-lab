@@ -30,11 +30,11 @@ function prependCat(Arnold) {
 
 function removeLastCat() {
     const newCats = cats.slice(0,2);
-    return newCats
+    return newCats;
 }
 
 
 function removeFirstCat() {
     const newerCats = cats.slice(1,3);
-    return newerCats
+    return newerCats;
 }
